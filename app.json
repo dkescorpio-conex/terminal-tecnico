@@ -1,0 +1,53 @@
+{
+  "expo": {
+    "name": "Fibex Técnicos",
+    "slug": "fibex-tecnicos",
+    "version": "1.0.0",
+    "icon": "./assets/icon.png",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/0d34fa45-7b2d-49c1-b0b3-440eb52c7f2d",
+      "channel": "production"
+    },
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "android": {
+      "package": "com.fibex.tecnicos",
+      "googleServicesFile": "./google-services.json"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "0d34fa45-7b2d-49c1-b0b3-440eb52c7f2d"
+      }
+    },
+    "cli": {
+      "appVersionSource": "local"
+    },
+    "plugins": [
+      [
+        "expo-camera",
+        {
+          "cameraPermission": "Permite al técnico tomar fotografías de evidencia para el reporte técnico."
+        }
+      ],
+      [
+        "expo-location",
+        {
+          "locationAlwaysAndWhenInUsePermission": "Permite registrar las coordenadas de llegada al sitio asignado."
+        }
+      ],
+      "expo-notifications",
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "La aplicación necesita acceso a la galería para adjuntar las evidencias fotográficas de los reportes técnicos."
+        }
+      ]
+    ]
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "309777243741",
+    "project_id": "fibex-tecnicos",
+    "storage_bucket": "fibex-tecnicos.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:309777243741:android:bedd8eafe2ec6741c1b7b4",
+        "android_client_info": {
+          "package_name": "com.fibex.tecnicos"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBjv9p5oZGzZnB2j3I72Uq3ZyYd96U89iE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
